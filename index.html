@@ -10,11 +10,42 @@
 <body>
     <div class="nav">
         <h1>Dojonary</h1>
-        <input type="text" placeholder="Search">
-        <button>Login</button>
+        <input type="text" placeholder="Search" class="nav-search">
+        <button class="btn" onclick="register(this)">Login</button>
     </div>
     <div class="content">
-        
+        <div class="mainbar">
+            <div class="publication">
+                <div>
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <p>plural:ninjas</p>
+                    <button class="button-like" onclick="like()">13 likes</button>
+                </div>
+                <div>
+                    <h2>A practitioner skilled in the
+                        <a href="">Japonese</a> art of <a href="">ninjutsu</a></h2>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div>
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <p>plural:ninjas</p>
+                    <button class="button-like" onclick="like()">37 likes</button>
+                </div>
+                <div>
+                    <h2>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</h2>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="dojonary">
+                <h1 class="dojonary-h1">Dojonary is defined by YOU</h1>
+                <button class="dojonary-button" onclick="remove(this)">Add Definition</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>

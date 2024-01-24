@@ -1,7 +1,103 @@
-.account{
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #CCCCCC;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    width: 80%;
+}
+
+.nav-title{
+    padding: 0px 10px;
+}
+.nav-search{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+.btn{
     padding: 10px;
     background-color: #2B78E4;
     color: #fff;
+    border: solid #000;
+    box-shadow: 4px 4px  #000;
+}
+
+
+.content{
+    display: flex;
+    width: 83%;
+    
+}
+.mainbar{
+    flex: 3;
+}
+.sidebar{
+    flex: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+/**** Estilo de la publicacion ****/
+.publication{
+    border: solid #333333;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+    
+}
+.publication div{
+    margin: 10px;
+}
+.publication div h2{
+    padding: 4px;
+}
+.button-like{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #FFD966;
+    border: solid #000;
+    box-shadow: 4px 4px  #000;
+}
+
+
+/**** Estilo del sideabr ****/
+.dojonary{
+    border: solid #333333;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    max-width: 270px;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+}
+.dojonary-h1{
+    font-size: 25px;
+
+}
+.dojonary-button{
+    padding: 10px;
+    background-color: #93C47D;
     border: solid #000;
     box-shadow: 4px 4px  #000;
 }
